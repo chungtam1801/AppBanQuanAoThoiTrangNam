@@ -7,7 +7,6 @@
         public string MoTa { get; set; }
         public int TrangThai { get; set; }
         public Guid IDLoaiSP { get; set; }
-        public virtual IEnumerable<ThuocTinhSanPham> ThuocTinhSanPhams { get; set; }
         public virtual IEnumerable<BienThe> BienThes { get; set; }
         public virtual LoaiSP LoaiSP { get; set; }
     }

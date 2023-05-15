@@ -26,7 +26,7 @@ namespace App_Ban_Quan_Ao_Thoi_Trang_Nam.Models
         public DbSet<QuyDoiDiem> QuyDoiDiems { get; set; }
         public DbSet<SanPham> SanPhams { get; set; }
         public DbSet<ThuocTinh> ThuocTinhs { get; set; }
-        public DbSet<ThuocTinhSanPham> ThuocTinhSanPhams { get; set; }
+        public DbSet<ThuocTinhLoaiSP> ThuocTinhSanPhams { get; set; }
         public DbSet<VaiTro> VaiTros { get; set; }
         public DbSet<Voucher> Vouchers { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -36,10 +36,6 @@ namespace App_Ban_Quan_Ao_Thoi_Trang_Nam.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-        //    modelBuilder.Entity<NguoiDung>()
-        //.HasOne(e => e.GioHang)
-        //.WithOne(e => e.NguoiDung)
-        //.HasForeignKey<GioHang>();
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
     }

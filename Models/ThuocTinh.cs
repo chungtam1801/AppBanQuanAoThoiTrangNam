@@ -7,6 +7,6 @@
         public DateTime NgayTao { get; set; }
         public int TrangThai { get; set; }
         public virtual IEnumerable<GiaTri> GiaTris { get; set; }
-        public virtual IEnumerable<ThuocTinhSanPham> ThuocTinhSanPhams { get; set; }
+        public virtual IEnumerable<ThuocTinhLoaiSP> ThuocTinhLoaiSPs { get; set; }
     }
 }

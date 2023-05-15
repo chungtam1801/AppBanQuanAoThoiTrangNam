@@ -4,6 +4,7 @@ using App_Ban_Quan_Ao_Thoi_Trang_Nam.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace App_Ban_Quan_Ao_Thoi_Trang_Nam.Migrations
 {
     [DbContext(typeof(AssignmentDBContext))]
-    partial class AssignmentDBContextModelSnapshot : ModelSnapshot
+    [Migration("20230515061650_SuaThuocTinhSanPham")]
+    partial class SuaThuocTinhSanPham
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -12,7 +12,6 @@ namespace App_Ban_Quan_Ao_Thoi_Trang_Nam.Configurations
             builder.Property(x => x.TrangThai).HasColumnType("int").IsRequired();
             builder.HasOne(x => x.BienThe).WithMany(x => x.ChiTietBienThes).HasForeignKey(x => x.IDBienThe);
             builder.HasOne(x => x.GiaTri).WithMany(x => x.ChiTietBienThes).HasForeignKey(x => x.IDGiaTri);
-            builder.HasOne(x => x.ThuocTinhSanPham).WithMany(x => x.ChiTietBienThes).HasForeignKey(x => x.IDThuocTinhSanPham);
         }
     }
 }
