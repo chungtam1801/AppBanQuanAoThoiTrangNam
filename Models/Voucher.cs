@@ -13,5 +13,6 @@
         public string MoTa { get; set; }
         public int TrangThai { get; set; }
         public virtual IEnumerable<HoaDon> HoaDons { get; set; }
+        //Git
     }
 }
