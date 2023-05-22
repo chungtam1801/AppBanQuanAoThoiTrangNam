@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8m6jlnzUGI4QyFmvsn/q5Dt9PPFsD4vT9RZFhSlSgJ8cyVIW6+32PcBIiSlV+o0tVlPf3bUDsWYBBSFAwcjPqw==",
+  "dgSpecHash": "6JWeDiouDfWDchfRby3A5I9+onT/WaAjJaWwJJF9Yrewgjp6yXsFOfgvVYolJ8I4Aa3VnIp7kynTjByX6eiiEg==",
   "success": true,
-  "projectFilePath": "D:\\Cshap 5 kì 6\\ASM\\AppBanQuanAoThoiTrangNam\\App_Ban_Quan_Ao_Thoi_Trang_Nam.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\New folder (4)\\App_Ban_Quan_Ao_Thoi_Trang_Nam.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Cshap 5 kì 6\\ASM\\AppBanQuanAoThoiTrangNam\\App_Ban_Quan_Ao_Thoi_Trang_Nam.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\New folder (4)\\App_Ban_Quan_Ao_Thoi_Trang_Nam.csproj": {}
   },
   "projects": {
-    "D:\\Cshap 5 kì 6\\ASM\\AppBanQuanAoThoiTrangNam\\App_Ban_Quan_Ao_Thoi_Trang_Nam.csproj": {
+    "C:\\Users\\Admin\\Desktop\\New folder (4)\\App_Ban_Quan_Ao_Thoi_Trang_Nam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cshap 5 kì 6\\ASM\\AppBanQuanAoThoiTrangNam\\App_Ban_Quan_Ao_Thoi_Trang_Nam.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\New folder (4)\\App_Ban_Quan_Ao_Thoi_Trang_Nam.csproj",
         "projectName": "App_Ban_Quan_Ao_Thoi_Trang_Nam",
-        "projectPath": "D:\\Cshap 5 kì 6\\ASM\\AppBanQuanAoThoiTrangNam\\App_Ban_Quan_Ao_Thoi_Trang_Nam.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\New folder (4)\\App_Ban_Quan_Ao_Thoi_Trang_Nam.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Cshap 5 kì 6\\ASM\\AppBanQuanAoThoiTrangNam\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\New folder (4)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
